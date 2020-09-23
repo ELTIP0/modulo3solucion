@@ -1,0 +1,52 @@
+header { background-color: grey;
+  }
+.container-fluid{ background-color: orange; 
+height: 100px;
+width: 100%;}
+
+.colapsable-nav { width: 100%;
+
+}
+
+#nav-list{
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+#nav-list a {margin-top: 2px;
+	color:  green;
+	font-size: 20px;
+	width: 100%;
+	height: 10%;
+}
+
+
+#nav-list a:hover{
+	background-color: grey;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+ 
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
+
+section{
+	background-color: grey;
+}
+.ourmenu{ text center; }

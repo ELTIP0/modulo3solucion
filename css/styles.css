@@ -1,36 +1,28 @@
-header{
-	background-color: red; 
-	clear: left;
-	width: 100%;
-    float: right;
-    margin-bottom: 20px;
-
-
-
-
-}
-section { background-color: grey;
- }
-
-.Ourmenu{color: red;
-text-align: center;
-
-}
-
-#nav-list{
-	margin-top: 100px;
+#nav-list {
 	text-align: center;
-
 }
 
-#nav-list a {margin-top: 2px;
-	color:  green;
-	font-size: 20px;
-	width: 100%;
-	height: 10%;
+#nav-list li {
+	padding: 5px;
 }
 
-
-#nav-list a:hover{
-	background-color: orange;
+#menu {
+	margin: 10px;
 }
+
+#menu .row > div {
+	padding: 10px;
+}
+
+#menu section {
+	background-color: grey;
+	padding: 10px;
+}
+
+#menu h3 {
+	margin: 0px;
+	padding: 5px;
+}
+ body { background-color: orange; }
+
+ header{ background-color: black; }
